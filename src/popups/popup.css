@@ -20,9 +20,16 @@ body {
     height: 230px;
 }
 
+#qrcode::before {
+    content: "... ...";
+    position: absolute;
+}
+
 #qrcode img {
+    position: relative;
     width: 100%;
     height: 100%;
+    z-index: 10;
 }
 
 #text-url {
