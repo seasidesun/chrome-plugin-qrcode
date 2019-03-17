@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "qrcode",
-  "description": "qrcode",
+  "description": "A popups tool to generate qrcode",
   "version": "1.0",
   "icons": {
     "128": "img/icon-128.png"
@@ -16,15 +16,5 @@
   },
   "permissions": [
     "tabs"
-  ],
-  "commands": {
-    "_execute_browser_action": {
-      "suggested_key": {
-        "windows": "Alt+Shift+Y",
-        "mac": "Alt+Shift+Y",
-        "chromeos": "Alt+Shift+Y",
-        "linux": "Alt+Shift+Y"
-      }
-    }
-  }
+  ]
 }
