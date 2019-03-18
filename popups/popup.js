@@ -1,5 +1,5 @@
 window.onload = function () {
-    // https://github.com/davidshimjs/qrcodejs
+    // Thanks to https://github.com/davidshimjs/qrcodejs
     var defaultConfig = {
         text: '',
         width: 230,
